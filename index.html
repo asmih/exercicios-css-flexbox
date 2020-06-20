@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Epic Games</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <title>Epic games login</title>
 </head>
-
 <body>
     <main>
-        <header>
-            <figure>
-                <img src="img/46fa751b-8b6b-4009-960a-5ab2d647f03c.jpg" alt="logo da epic games">
-            </figure>
-            <h1>Fazer login com uma conta da epic games</h1>
-        </header>
-        <form action="/form-data" method="POST">
-            <div>
-                <input type="text" placeholder="Endereço de e-mail" id="email-text">
-                <input type="password" placeholder="Senha" id="senha">
-            </div>
-            <div>
-                <button type="checkbox"> Lembrar de mim</button>
-                <button>Esqueceu sua senha</button>
-            </div>
-            <button type="button submit">Entre na sua conta agora </button>
-        </form>
+        <section class="card">
+            <header>
+                <figure>
+                    <img src="./img/epic-logo-invert 1.svg" alt="Logo do epic games">
+                </figure>
+                <h3>Fazer login com uma conta do epic games</h3>
+            </header>
+            <form action="">
+                <div class="form-input">
+                    <input class="input-form" type="email" placeholder="Endereço de email">
+                    <input class="input-form" type="password" placeholder="Senha">
+                </div>
+            <section class="text-form">
+                <div class="text-section-form">
+                    <input type="checkbox">
+                    <p>Lembrar de mim</p>
+                </div>
+                <a href="">Esqueceu sua senha</a>
+            </section>
+                <button type="submit">Entre na sua conta agora</button>
+            </form>
+        </section>
     </main>
 </body>
-
 </html>

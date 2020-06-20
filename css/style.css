@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+font-family: 'Roboto', sans-serif; 
+background: var(--color-background);
+}
+
+main {
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card {
+    height: 95vh;
+    width: 50%;
+    background-color: var(--color-card);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    color: var(--color-title);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+height: 30vh;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.input-form{
+    height: 10vh;
+    width: 30vw;
+    border: none;
+    background-color: var(--color-input);
+    text-indent: 2%;
+}
+
+.text-form {
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 40vw;
+color: var(--color-form-font);
+}
+
+.text-section-form {
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-form-font);
+    transition: 0.5s;
+}
+
+a:hover {
+    color: var(--color-title);
+}
+
+button {
+    width: 30vw;
+    background-color: var(--color-button);
+    color: var(--color-form-font);
+    border: none;
+    height: 8vh;
+    margin-top: 2%;
+    cursor: pointer;
+}
